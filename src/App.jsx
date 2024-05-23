@@ -1,17 +1,14 @@
 import './App.css'
-import Card from "/src/Components/Card";
+import Formulario from "./Components/Formulario";
+
 
 function App() {
-
   return (
-    <div className="App">
-      <h1>Debajo veremos un form</h1>
-      <form>
-        
-      </form>
-      <Card />
+    <div>
+      <h1 style={{ color: "red" }}>Formulario de pelis</h1>
+      <Formulario />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
